@@ -1,0 +1,224 @@
+header {
+  color: black;
+  height: 100px;
+}
+header nav {
+  float: right;
+  margin-top: 25px;
+  margin-right: 150px;
+}
+@media (max-width: 650px) {
+  header nav {
+    margin: 0%;
+  }
+}
+header h5 {
+  border: 0px;
+  padding: 25px;
+  padding-left: 100px;
+  font-weight: bolder;
+}
+@media (max-width: 750px) {
+  header h5 {
+    padding: 0px;
+    padding-top: 20px;
+    font-size: medium;
+    width: 60px;
+    text-align: center;
+    margin: 0%;
+  }
+  header h5 img {
+    height: 20px;
+    width: 20px;
+  }
+}
+@media (max-width: 420px) {
+  header h5 {
+    padding-left: 4px;
+    font-size: medium;
+  }
+}
+header ul {
+  float: right;
+  margin-bottom: 0px;
+  height: 30px;
+}
+@media (max-width: 650px) {
+  header ul {
+    padding-left: 1px;
+  }
+}
+header ul > li {
+  display: inline-block;
+  padding-left: 30px;
+}
+@media (max-width: 750px) {
+  header ul > li {
+    padding-left: 1px;
+    font-size: small;
+  }
+}
+header a {
+  color: black;
+}
+header a:hover {
+  text-decoration: none;
+  color: #ff471a;
+}
+
+button {
+  color: white;
+  padding: 5px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border: 0px;
+  width: 120px;
+  height: 40px;
+  border-radius: 5%;
+}
+@media (max-width: 750px) {
+  button {
+    height: 50px;
+    width: 70px;
+    font-size: small;
+  }
+}
+
+.NavbarButton {
+  margin-left: 30px;
+  margin-top: 20px;
+  background: #1aa3ff;
+}
+@media (max-width: 400px) {
+  .NavbarButton {
+    margin: 0px 0px;
+  }
+}
+
+.Getbutton {
+  background-color: #ffad99;
+  color: #ff5c33;
+}
+
+.Learnbutton {
+  background-color: #80ffe5;
+  color: #00cca3;
+}
+
+.active > a {
+  color: #ff471a;
+}
+
+.mainPicture {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 50px;
+  background-image: url("marketing-internetowy.jpg");
+  text-align: center;
+}
+.mainPicture h2 {
+  padding: 0% 30%;
+  font-weight: bolder;
+}
+.mainPicture button {
+  margin: 0 2px;
+}
+
+.OfferDescription {
+  margin-top: 80px;
+}
+
+.CaseStudies {
+  text-align: center;
+}
+.CaseStudies h6 {
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+
+.underLine {
+  position: relative;
+  left: 35%;
+  width: 30%;
+  height: 3px;
+  background-color: black;
+  margin-bottom: 7px;
+}
+
+#special {
+  background-color: #ff471a;
+}
+
+.CustomersOpinions {
+  text-align: center;
+}
+.CustomersOpinions .row {
+  margin-bottom: 35px;
+}
+@media (max-width: 650px) {
+  .CustomersOpinions .card {
+    margin-bottom: 30px;
+    margin: 0px 10px 15px;
+  }
+}
+.CustomersOpinions .col-sm-4 {
+  padding: 0%;
+  margin: 0%;
+}
+
+.contactUs {
+  height: 300px;
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+  background-image: url("https://e7.pngegg.com/pngimages/13/332/png-clipart-watercolor-painting-drawing-marketing-drawing-elements-background-blog-content-marketing-text.png");
+}
+.contactUs h3 {
+  position: relative;
+  top: 15%;
+}
+.contactUs button {
+  background-color: white;
+  color: #ff471a;
+  border: #ff471a 2px solid;
+  border-radius: 40%;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.additionalInformations {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 0px;
+}
+.additionalInformations ul {
+  list-style-position: inside;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.additionalInformations ul > li {
+  margin-bottom: 10px;
+}
+
+footer {
+  margin: auto;
+  text-align: center;
+  border-top: solid 2px #eee;
+  padding-top: 15px;
+}
+
+.col-6 {
+  padding: 15px 0px;
+}
+
+.col-2 {
+  padding: 15px 0px;
+}
+
+.col-3 {
+  padding: 15px 0px;
+}
+
+.col-12 {
+  padding-bottom: 15px;
+}
