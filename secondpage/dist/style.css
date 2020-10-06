@@ -20,8 +20,7 @@ header h5 {
 }
 @media (max-width: 750px) {
   header h5 {
-    padding: 0px;
-    padding-top: 20px;
+    padding: 20px 0px 0px 25px;
     font-size: medium;
     width: 60px;
     text-align: center;
@@ -34,7 +33,7 @@ header h5 {
 }
 @media (max-width: 420px) {
   header h5 {
-    padding-left: 4px;
+    padding-left: 20px;
     font-size: medium;
   }
 }
@@ -55,7 +54,7 @@ header ul > li {
 @media (max-width: 750px) {
   header ul > li {
     padding-left: 1px;
-    font-size: small;
+    font-size: medium;
   }
 }
 header a {
@@ -154,6 +153,9 @@ button {
 }
 .CustomersOpinions .row {
   margin-bottom: 35px;
+}
+.CustomersOpinions .card {
+  margin: auto;
 }
 @media (max-width: 650px) {
   .CustomersOpinions .card {
