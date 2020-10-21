@@ -1,0 +1,38 @@
+body
+{
+  text-align: center;
+}
+
+li {
+  margin-left: 15px;
+}
+
+
+.hide {
+  height: 40px;
+  width: 120px;
+  display: none;
+  margin-left: 20px;
+  border: none;
+  background-color: red;
+  color: white;
+}
+
+.addButton {
+  height: 30px;
+  width: 120px;
+  border: none;
+  background-color: rgb(0, 204, 255);
+  color: white;
+}
+
+#list {
+  display: inline;
+  li:hover .hide {
+    display: inline;
+  }
+}
+
+
+
+
